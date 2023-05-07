@@ -5,10 +5,10 @@ class Cheatsheetrs < Formula
     license "MIT License"
 
     if Hardware::CPU.intel?
-      url "https://github.com/jheryer/cheatsheetrs/releases/download/0.1.1/cheatsheet-0.1.1-x86_64-apple-darwin.tar.gz"
+      url "https://github.com/jheryer/cheatsheetrs/releases/download/v0.1.1/cheatsheet-0.1.1-x86_64-apple-darwin.tar.gz"
       sha256 "4bac93fffdb082dd6776ff822e8edc6d187a6b5ab6ed9322893b416cd18d703c"
     elsif Hardware::CPU.arm?
-      url "https://github.com/jheryer/cheatsheetrs/releases/download/0.1.1/cheatsheet-0.1.1-aarch64-apple-darwin.tar.gz"
+      url "https://github.com/jheryer/cheatsheetrs/releases/download/v0.1.1/cheatsheet-0.1.1-aarch64-apple-darwin.tar.gz"
       sha256 "969a7db6334049e465bddab8a5210f0588787ff488dd777638e1a085fde565b4"
     end 
 
